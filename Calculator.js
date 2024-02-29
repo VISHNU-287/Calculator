@@ -1,93 +1,99 @@
 let calculation = localStorage.getItem('data') || '';
 
 
-function Display(){
-  document.getElementById('id-01').innerHTML = calculation;
+function Display(sw){
+  if(sw === 5){
+ document.getElementById('id-01').innerHTML = calculation;
+  }
+  else{
+    document.getElementById('id-01').innerHTML = 0;
+  }
+
 }
 
 function one(){
   calculation += '1';
-  Display();
+  Display(5);
 }
 
 function two(){
   calculation += '2';
-  Display();
+  Display(5);
 }
 
 function three(){
   calculation += '3';
-  Display();
+  Display(5);
 }
 
 function plus(){
   calculation += ' + ';
-  Display();
+  Display(5);
 }
 
 function four(){
   calculation += '4';
-  Display();
+  Display(5);
 }
 
 function five(){
   calculation += '5';
-  Display();
+  Display(5);
 }
 
 function six(){
   calculation += '6';
-  Display();
+  Display(5);
 }
 
 function minus(){
   calculation += ' - ';
-  Display();
+  Display(5);
 }
 
 function seven(){
   calculation += '7';
-  Display();
+  Display(5);
 }
 
 function eight(){
   calculation += '8';
-  Display();
+  Display(5);
 }
 
 function nine(){
   calculation += '9';
-  Display();
+  Display(5);
 }
 
 function multi(){
   calculation += ' * ';
-  Display();
+  Display(5);
 }
 
 function zero(){
   calculation += '0';
-  Display();
+  Display(5);
 }
 
 function dot(){
   calculation += '.';
-  Display();
+  Display(5);
 }
 
 function calculate(){
   calculation = eval(calculation);
   localStorage.setItem('data',calculation);
-  Display();
+  Display(5);
 }
 
 function divide(){
   calculation += '/';
-  Display();
+  Display(5);
 }
 
 function clearCalculation(){
-  calculation = '0';
+  calculation = '';
   localStorage.removeItem('data');
   Display();
 }
