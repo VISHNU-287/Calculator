@@ -1,0 +1,43 @@
+.heads{
+  font-family:arial;
+  font-size:40px;
+  color:aqua;
+}
+body{
+  background-color:black;
+}
+#id-01{
+  font-family:arial;
+  font-size:50px;
+  color:white;
+  font-weight:bold;
+}
+.operand{
+background-color:rgb(54, 52, 52);
+color:white;
+height:80px;
+width:80px;
+border:none;
+border-radius:50%;
+font-family:arial;
+  font-size:40px;
+  color:white;
+  
+}
+.operator{
+  background-color:rgb(218, 101, 6);
+color:white;
+height:80px;
+width:80px;
+border:none;
+border-radius:50%;
+font-family:arial;
+  font-size:40px;
+  color:white;
+ 
+}
+.additional{
+  background-color:red;
+  color:weight;
+  font-size:30px;
+}

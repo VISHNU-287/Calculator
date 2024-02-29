@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Calculator</title>
+  <link rel="stylesheet" href="Calculator.css">
+  <link rel="icon" type="image/x-icon" href="calculator-logo.png">
+</head>
+<body>
+  <marquee class="heads">Web Calculator</marquee>
+  <p id="id-01"></p>
+  <p>
+    <button onclick="one();" class="operand">1</button>
+    <button onclick="two();" class="operand">2</button>
+    <button onclick="three();" class="operand">3</button>
+    <button onclick="plus();" class="operator">+</button>
+  </p>
+  <p>
+    <button onclick="four();" class="operand">4</button>
+    <button onclick="five();" class="operand">5</button>
+    <button onclick="six();" class="operand">6</button>
+    <button onclick="minus();" class="operator">-</button>
+  </p>
+  <p>
+    <button onclick="seven();" class="operand">7</button>
+    <button onclick="eight();" class="operand">8</button>
+    <button onclick="nine();" class="operand">9</button>
+    <button onclick="multi();" class="operator">*</button>
+  </p>
+  <p>
+    <button onclick="zero();" class="operand">0</button>
+    <button onclick="dot();" class="operand">.</button>
+    <button onclick="calculate();" class="operand">=</button>
+    <button onclick="divide();" class="operand">/</button>
+  </p>
+<p>
+  <button onclick="clearCalculation();" class="operator additional">
+    clear
+  </button>
+</p>
+
+</body>
+
+<script src="Calculator.js"></script>
+</html>
