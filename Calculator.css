@@ -22,7 +22,9 @@ border-radius:50%;
 font-family:arial;
   font-size:40px;
   color:white;
-  
+}
+.operand:hover{
+  background-color: grey;
 }
 .operator{
   background-color:rgb(218, 101, 6);
@@ -34,10 +36,15 @@ border-radius:50%;
 font-family:arial;
   font-size:40px;
   color:white;
- 
+}
+.operator:hover{
+  background-color:rgb(212, 175, 6);
 }
 .additional{
-  background-color:red;
+  background-color:rgba(128, 8, 8, 0.822);
   color:weight;
   font-size:30px;
+}
+.additional:hover{
+  background-color:red;
 }
